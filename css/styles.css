@@ -39,3 +39,17 @@ a[href^="https"]{/* '^' to show the start of the value*/
     background: black;
     color: white;
 }
+
+/* psuedo classes: */
+
+a:hover{
+    color: yellow;
+}
+
+a:active{/*when left mouse button is clicked/pressed*/
+    color: red;
+}
+
+a:visited{
+    color: brown;
+}
