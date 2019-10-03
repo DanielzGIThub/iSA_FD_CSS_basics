@@ -1,0 +1,20 @@
+/***************************************************
+*
+* Author: Daniel Zyla
+* Date: 03.10.2019
+* URL: https://github.com/DanielzGIThub
+*
+***************************************************
+
+/* styles for all p tags */
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles for all h tags */
+
+#header1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
