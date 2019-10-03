@@ -28,6 +28,10 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#main p{
+    color: brown;
+}
+
 /* styles for all a tags */
 
 a {
@@ -43,4 +47,14 @@ a {
     border: 1px solid blue;
     padding: 10px;
     color: grey;
+}
+
+.test{
+    color: lightcoral; /*it doesn't work due to specifity of id=header1 color, however em inside works*/
+}
+
+/* styles for em tags */
+
+em {
+    color: darkgreen;
 }
