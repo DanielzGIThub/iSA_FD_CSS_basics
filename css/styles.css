@@ -19,3 +19,23 @@ h1, p, a {
 #main h1 + p + p + p + p {/* adjacent selectors*/
     color: lightsalmon;
 }
+
+/* Attribute selectors :*/
+
+a[target]{
+    border: 2px solid brown;
+}
+
+p[id~="test"]{/* '~' works if space is after*/
+    background: grey;
+}
+
+a[href$="txt"]{/* '$' to sign the end of the value*/
+    background: blueviolet;
+    color: black;
+}
+
+a[href^="https"]{/* '^' to show the start of the value*/
+    background: black;
+    color: white;
+}
