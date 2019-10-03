@@ -4,7 +4,15 @@
 * Date: 03.10.2019
 * URL: https://github.com/DanielzGIThub
 *
-***************************************************
+***************************************************/
+
+body{
+    padding: 20px;
+}
+
+div{
+    margin-left: 50px;
+}
 
 /* styles for all p tags */
 
