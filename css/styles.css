@@ -53,3 +53,16 @@ a:active{/*when left mouse button is clicked/pressed*/
 a:visited{
     color: brown;
 }
+
+/*first-child, last-child selectors*/
+
+.test-rel p:first-child{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.test-rel p:last-child{
+    font-style: italic;
+    font-size: 40px;
+}
