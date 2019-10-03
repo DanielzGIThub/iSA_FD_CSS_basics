@@ -20,3 +20,13 @@ div[class^="test-rel"] p:nth-child(3){/*3rd child i.e. h2(1) p(2) p(3)*/
 div[class^="test-rel"] p:nth-of-type(3){/*3rd of p type i.e. p(1) p(2) p(3)*/
     color: yellow;
 }
+
+/*combining selectors*/
+
+p.test{
+    color: red;
+}
+
+a.test{
+    color: green;
+}
