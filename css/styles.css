@@ -11,3 +11,7 @@ h1, p, a {
 #main .test em {
     color: yellow;
 }
+
+#main > p{
+    text-decoration-line: overline; /* '>' sign added to style only direct child p in the main div. Grandchild p remains unchanged*/
+}
