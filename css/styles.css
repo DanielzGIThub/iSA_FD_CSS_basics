@@ -12,9 +12,25 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* styles for all h tags */
+/* styles for all id(s) */
 
 #header1{
     color: red;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles for all a tags */
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: green;
+}
+
+/* styles for all classes */
+
+.note {
+    background-color: beige;
+    border: 1px solid blue;
+    padding: 10px;
 }
