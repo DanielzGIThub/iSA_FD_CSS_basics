@@ -50,7 +50,7 @@ a {
 }
 
 .test{
-    color: lightcoral; /*it doesn't work due to specifity of id=header1 color, however em inside works*/
+    color: lightcoral !important; /*it doesn't work due to specifity of id=header1 color, however em inside works, but it works when !important is added*/
 }
 
 /* styles for em tags */
