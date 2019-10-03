@@ -10,6 +10,7 @@
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    color: orange;
 }
 
 /* styles for all id(s) */
@@ -33,4 +34,5 @@ a {
     background-color: beige;
     border: 1px solid blue;
     padding: 10px;
+    color: grey;
 }
