@@ -30,3 +30,9 @@ p.test{
 a.test{
     color: green;
 }
+
+/*Universal selector, replaces default browser's styles*/
+*{
+    color: violet;
+    background-color: beige;
+}
